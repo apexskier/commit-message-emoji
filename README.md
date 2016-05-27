@@ -5,7 +5,7 @@ emoji. This adds something that can be scanned without reading to deployment
 notes and emails to get a quick idea of what the deployment's about (bugfixes,
 new features, ...). It's also fun.
 
-## Guide
+## Guide 📖
 
 - 🐛 Bugfix
 - ✨ New feature
@@ -18,6 +18,6 @@ new features, ...). It's also fun.
 - ⚡️ General update
 - 🔖 Version tag
 
-## Using Emoji is Hard! :rage:
+## Using Emoji is Hard! 😡
 
 Here are [some ways](INTEGRATIONS.md) to more easily integrate emoji into your workflow.
