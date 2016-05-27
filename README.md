@@ -1,116 +1,23 @@
-# Commit Message Emoji
+# Deployment Emoji
 
-Every commit is important.
-So let's celebrate each and every commit with a corresponding emoji! :smile:
+I like to prepend each line of the list of changes in a deployment note with an
+emoji. This adds something that can be scanned without reading to deployment
+notes and emails to get a quick idea of what the deployment's about (bugfixes,
+new features, ...). It's also fun.
 
-Oh, and it can also help with glancing over commit messages to figure out
-what kind of changes have been made. :smirk:
+## Guide
 
-## Usage
-
-Prepend every commit message with an emoji with this form:
-`:emoji: commit message`.
-
-## Which Emoji to Use? :confused:
-
-Commit Type | Emoji
-----------  | -------------
-Initial Commit | :tada: `:tada:`
-Version Tag | :bookmark: `:bookmark:`
-New Feature | :sparkles: `:sparkles:`
-Bugfix | :bug: `:bug:`
-Metadata | :card_index: `:card_index:`
-Documentation | :books: `:books:`
-Performance | :racehorse: `:racehorse:`
-Cosmetic | :lipstick: `:lipstick:`
-Tooling | :wrench: `:wrench:`
-Tests | :rotating_light: `:rotating_light:`
-Deprecation | :poop: `:poop:`
-Work In Progress (WIP) | :construction: `:construction:`
-Other | [Be creative](http://www.emoji-cheat-sheet.com/)
+- 🐛 Bugfix
+- ✨ New feature
+- 🐎 Performance improvement
+- 🚨 Tests
+- 💅 Cosmetic improvement
+- 🔨 Cleanup (removed stuff) (this would be a broom sweeping, preferably)
+- 🚧 Gated experiment
+- 📚 Documentation
+- ⚡️ General update
+- 🔖 Version tag
 
 ## Using Emoji is Hard! :rage:
 
 Here are [some ways](INTEGRATIONS.md) to more easily integrate emoji into your workflow.
-
-## Comparison
-
-You can be the judge on which is easier to grok.
-
-Example taken from [here](https://github.com/dannyfritz/funcdash/commits/master)
-
-### Commits Without Emoji :anguished:
-
-0.5.2
-
-Fix exporting of the library to include _.ifElse
-
-0.5.1
-
-add _.ifElse to README.md
-
-0.5.0
-
-add _.ifElse
-
-fix JSDoc comment for _.call
-
-Fix _.not documentation example.
-
-Update JSDoc comments.
-
-0.4.1
-
-Update links to documentation.
-
-Fix documentation.
-
-Link to documentation pages.
-
-0.4.0
-
-Added a curried version of the mixin for lodash-fp.
-
-Switch from lodash to lodash-compat
-
-Add shields to README.
-
-Add missing methods to index.js.
-
-### Commits with Emoji :smiley:
-
-:bookmark: 0.5.2
-
-:bug: Fix exporting of the library to include _.ifElse
-
-:bookmark: 0.5.1
-
-:books: add _.ifElse to README.md
-
-:bookmark: 0.5.0
-
-:sparkles: add _.ifElse
-
-:books: fix JSDoc comment for _.call
-
-:books: Fix _.not documentation example.
-
-:books: Update JSDoc comments.
-
-:bookmark: 0.4.1
-
-:books: Update links to documentation.
-
-:books: Fix documentation.
-
-:books: Link to documentation pages.
-
-:bookmark: 0.4.0
-
-:sparkles: Added a curried version of the mixin for lodash-fp.
-
-:card_index: Switch from lodash to lodash-compat
-
-:card_index: Add shields to README.
-
-:bug: Add missing methods to index.js.
